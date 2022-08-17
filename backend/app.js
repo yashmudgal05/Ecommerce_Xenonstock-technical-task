@@ -11,7 +11,6 @@ const errorMiddleware = require("./middleware/error");
 //config
 dotenv.config({path:"backend/config/config.env"});
 
-
 app.use(express.json());
 app.use(cookieParser());
 const corsOptions = {
